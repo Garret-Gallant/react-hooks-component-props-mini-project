@@ -1,13 +1,13 @@
 import React from "react";
 
-const Header = ({blogName}) => {
-    return (
+const Header = ({ blogName }) => {
+  return (
     <div>
-    <header>
+      <header>
         <h1>{blogName}</h1>
-    </header>
+      </header>
     </div>
-    )
-}
+  );
+};
 
 export default Header;

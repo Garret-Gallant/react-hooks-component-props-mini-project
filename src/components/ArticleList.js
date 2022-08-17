@@ -1,14 +1,11 @@
 import React from "react";
-import Article from './Article'
+import Article from './Article';
 
 
 const ArticleList = ({blogPosts}) => {
     const posts = blogPosts.map((post) => (
         console.log('single post: ' , post),
-    <Article key={post.id} 
-             postArray={post}
-             postDate={post.date} 
-    />
+    <Article key={post.id} postArray={post} postDate={post.date} />
     ));
 
 return (
